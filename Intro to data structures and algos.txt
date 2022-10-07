@@ -1,0 +1,18 @@
+program is installed on disk as well as data of program(data files)
+
+when program is to be executed the program/program code will be transfered into RAM and cpu will start executing the prgrams code
+when the program makes a call to the data who is o the disk in a database, that data will also be transferred into the RAM 
+during the execution of a program data structure determins how the program will manage data inside of the main memory(RAM)
+data structure are arrangemnt of data so it can be used efficiently
+
+
+static and dynamic memory allocation on RAM
+how a program use the RAM is by dividing it by 3 which one is code where the program reside, the second is the stack, and third is the heap. 
+variable in the code will be allocated inside the stack and based on these variables the compiler will see the amount of memory is required for the program in compile time(... I think this means when program is built)
+that is called static memory.
+
+there are times when your app is now being used an some extra memory is neccessary for example maybe when taking some input, that is when the heap get used. App don;t directly access the heap, the way application access the heap is through pointers, since pointer basically point to an address in memory where data is stored. A data structure that is used all the time that uses the heap is arrys
+as arrays are pointer to the address of the first element in memory. Heap is extra resource and should be cleared when no longer needed. 
+
+the implementation of all data structures involves the use of arrays and linkedlist.
+
