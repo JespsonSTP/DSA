@@ -1,0 +1,4 @@
+great for search
+2 algos for search linear - O(n) and binary O(log(n))
+
+the fastest time is O(1) and that is why this data structure is great because you can use a key to find your item
